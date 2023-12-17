@@ -255,5 +255,7 @@
 
 #ifdef CONFIG_EVA_KALAMA
 #define CVP_GCC_VIDEO_AXI1_CBCR		(0x22024)
+#elif defined(CONFIG_EVA_WAIPIO)
+#define CVP_GCC_VIDEO_AXI1_CBCR		(0x32020)
 #endif	/*End of CONFIG_EVA_KALAMA */
 #endif
